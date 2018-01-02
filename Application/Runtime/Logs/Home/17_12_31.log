@@ -1,0 +1,827 @@
+[ 2017-12-31T00:02:45+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-12-31T00:02:50+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0027s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47b8a99dace','17623094662','0.1','1514649769') [ RunTime:0.0009s ]
+ERR: check sign Fail! [sign=GDDpOYBH//zjcpVIcBOa7a2SVXfyngL44Cv9TSrjOXZJWZmv4P+FKS/JgsCIlZMKvsdFjY81lsG4OSFXYvkRqejv08iV6NnVvic2VWBnkIySxFOT9WVQ1um8orrpGe3VObxUyDYHIwWiCFyz559NASmsAbSTHzQlaEOHIXVewLzIO4FsUqZZpW5QrkmjquXs1waNYsJOyXZ0/0+RtFG1jgjft157WDhV76uhw2tgwTzr9dsaKtMqTZM1FqXizMD65Xfi2z7VmrNMPmATx2JkSXmjC7FBCF7KMqpNccLkaPjE4d35MoIspvbCXF70WeNasj70zolWSoSBl7wc4qLB/g==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030768382","out_biz_no":"5a47b8a99dace","pay_date":"2017-12-31 00:02:50"}]
+
+[ 2017-12-31T00:04:36+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-12-31T00:04:53+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0021s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47b92516081','17623094662','0.1','1514649893') [ RunTime:0.0004s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514649893' WHERE `out_trade_no` = '5a47b92516081' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-12-31T00:05:54+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-12-31T00:06:03+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0019s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47b96b94d04','17623094662','0.1','1514649963') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=h4MB3i0muGBpGEskz4qaDqzgnHcd62XHW0O7/0HQwek/4Y9yTRs6p1tpiIICijG1aIIogA0u1x+kFxL8R29HlbaVlkGp+7zxe/sjhgnwz/2qajoeFKIDJJ1kbhT+EkpeZqa3InEqWxQbjXiuukruhZv+d/JG0H/2W4VlrxXNl9aTF5kD+Fal47qfg5x8LgmSze7hWmmUGoXskVuoZwmxDpkrA4yxjdpufQXM00vzKV6tVTpTKaEDpXs6SRLGob3wSTNBlmyNXjgFRijhpp+5hCOJbEP6UFWdkHEfZyNfPEvoFHakb9jbM11oFB5dpZpG91ee43sP3k8N7ktk2EHVJg==, signSourceData={"code":"40004","msg":"Business Failed","sub_code":"PAYEE_NOT_EXIST","sub_msg":"收款账号不存在","out_biz_no":"5a47b96b94d04"}]
+
+[ 2017-12-31T00:06:32+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-12-31T00:06:38+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0023s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47b98e7a7cb','17623094662','0.1','1514649998') [ RunTime:0.0004s ]
+ERR: check sign Fail! [sign=fAhHluApTWssymxA4opfbQs66Kiqs8c9C5ipwihk3DNCII36V8IMwdHILk98iULVrkZswHTWxOF5QwlkA256jAPfC6X3m2ca+YKTDHwBqe2SujzkZSeeHf8WH4WGZrzmPZ5Zi90f01VzcddY8UKmbdrsoB/emj3IFBTVFTfd1OMxC2hRER38MiwnOuHStWq5yrie+wwIXRsPM/2ctAhE2dCsOQ1jy3C40lyaIxG/3kFb3Hn+xaCyxkNyeb4O/c3diFD361oOj6sQZipjJB6BgDku57T5P7bBGq4BWC1ldNPhE2olUGN86S6tGxWD/832xE6VzuOWqDTxmmB2mXM18A==, signSourceData={"code":"40004","msg":"Business Failed","sub_code":"PAYEE_NOT_EXIST","sub_msg":"收款账号不存在","out_biz_no":"5a47b98e7a7cb"}]
+
+[ 2017-12-31T00:10:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-12-31T00:10:51+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0021s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47ba8ae1318','15058258109','0.1','1514650250') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-12-31T00:12:03+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0021s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bad2ac156','15058258109','0.1','1514650322') [ RunTime:0.0003s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('40004','15058258109','0.1','1514650323') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-12-31T00:13:08+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0016s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bb146ba4b','15058258109','0.1','1514650388') [ RunTime:0.0003s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('40004','15058258109','0.1','1514650388') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-12-31T00:14:06+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bb4da841a','15058258109','0.1','1514650445') [ RunTime:0.0005s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('10000','15058258109','0.1','1514650446') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514650446' WHERE `out_trade_no` = '5a47bb4da841a' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-12-31T00:15:17+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-12-31T00:15:27+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0016s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bb9eb1b5b','15058258109','0.1','1514650526') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=Jcu2PLv0j8AE1rOTEzLkfTJOs3qldfyxultIcj9Lrvw505N4+6kRTJcUGbJql+IDZT/WBkPJmUkRbUg/HmYBMVhvLgjrZMU5fW/vIxoOdtjUEhiOQi2CEEPQRNB5ExL/gQz9wW/9ii8CGIx8KTVeFJHoP1mReaCu9K/XxZpzkfK0QXuGDrLwKK7X0XEA4r0bcQZ2K9WWF2yYFVtB40jm6qlVNEQ1XdDtMcejjVltGgucm/XEGK+s/B7civ8CrRXlLDq1bCk8hM/MtCZO5Hszf4rVEZdv2FwIilRzKMuziJC8CW6U7B7aZc04ij974mr04vyzQpXyCuCw1Hd9JPDOVA==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030753808","out_biz_no":"5a47bb9eb1b5b","pay_date":"2017-12-31 00:15:27"}]
+
+[ 2017-12-31T00:15:53+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0086s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bbb92f23e','15058258109','0.1','1514650553') [ RunTime:0.0004s ]
+ERR: check sign Fail! [sign=lWDfhk2Qoili+HfH6U2wsr9t7VbHQjDVw2PALujXSZ7Gds22N8VooRcvShd9Z6jl4aev01zQDbOJJn7eetXfzn16boWwZN4jkDICZKZwgduiQRtSaBJX8O8BFHpllPGYSPiUAHe0Mfe85QnFqQWuzHadgDoCiUNJba+ZB2vSo7Y=, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，sign值与sign_type参数指定的签名类型不一致：sign_type参数值为RSA，您实际用的签名类型可能是RSA2"}]
+
+[ 2017-12-31T00:18:47+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0017s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bc66c6546','15058258109','0.1','1514650726') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=NcMI5PHkHRzhiKeFsgazhJa8ZJz48uOyWE3IqCwUSyhvpXw2nRgjZFFOkPQac1UipRM+jccA+N9gZzTlXETHXjCdSli77Kcao3cwaiVoQ9Ybq4YJG3NLcJ1zq8qtbmqWwoDOxEFBBdc+IMSqyFhx+xHfnQMOyPguXf/pIunf5MBNzTy530sNd/qspxIU239SCL8EaHZSUEr2r5jjS4Br7PhlQZXMFM59cDVQrcPP5Ki4hn1qk4on1sfPBuaMFZ3Jn4L6Bn0N+Jm8HDp69dSJkfDBKyxHahUhEKCvD8MeoYOc4Yoi/U4ATcNMbOl6SyO1Uo16hHXRTmfnJBHB02PatQ==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030779498","out_biz_no":"5a47bc66c6546","pay_date":"2017-12-31 00:18:47"}]
+
+[ 2017-12-31T00:19:15+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0095s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bc829df17','17623094662','0.1','1514650754') [ RunTime:0.0006s ]
+ERR: check sign Fail! [sign=HVHewnONWAEDDVND0uslvvXXfHNnQzO6fmNBNcnFczlOgqAQDZ41FdZOyaZtf1kjdnd5OHdynHrBmtVEJYIA/VCm9xC7Mn636BdA5BYeEjQNdCyWoBOQVwe04J9V+7CURqMxBkx9VcFu0awkZVgVMZ93MiMWoBWxWNo3pAWynrKB4Y3F8yC8hgd1KOl+RGg9wyHJoo51KU8gJZqjBR6NOKmBctw4Xtw/8IQt0YX9HzTKqdCskG0ILYSsmhg3xCLYQmFURaOmimRuvRaxXqodQWnOMg7giGr2NNJw7nNn9WiWCqHdpOERQmedLOlN7n1zFY23hc/lbvm1oV8ndtwXdQ==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030742560","out_biz_no":"5a47bc829df17","pay_date":"2017-12-31 00:19:15"}]
+
+[ 2017-12-31T00:21:24+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0014s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bd040d781','17623094662','0.1','1514650884') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=YOR9/tajCAlKkvJmIbCIGMx3rZNjaK1LZ3I9ba8KSoSzrLXK6AuPQFALCURXtHJ/G9CiCPNijZIzPkB21V3LQezZQSBE1o3hVsn2N3J3bsW6VgZPTxBa9WocXIh7/j/gUYUOP393YD0AW69AyiTCF1tgMrvC/Vf2rEUDMh0i/53CpcO4eSZUDgDA3JgoxUsbT6332t+m5Btpy1h7y1yKg6F/iap17O2EA6maWmB4lalDWrUUJMqsa5cN1TcPcWuZRaLSrXFRUJBKKjArbT35jmxDOXyCJvdh+bHUvhadXaWLTN5srdxElwRmLF0TQb2zm7vQpK6xTar2E5yMVBnCxg==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030782336","out_biz_no":"5a47bd040d781","pay_date":"2017-12-31 00:21:24"}]
+
+[ 2017-12-31T00:22:02+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0014s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bd29837bc','17623094662','0.1','1514650921') [ RunTime:0.0003s ]
+
+[ 2017-12-31T00:22:47+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0022s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bd56520c5','17623094662','0.1','1514650966') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=h+Si3gsav+0sGXp3UPGHmlVUIpC/VBfeM8ui90UqWhd4mUeoKoZNEGNvpvHemIbcjN23MRQLMn68PzL/K7TEhGTQGRdT/ALYl8LEU7GUM8kMLAUdxYUZjf/KafKixHlKqVKleZ4HDEqpLP65rSx6b/nB0pHdky//FgDjc2PeNNdV4EIehFdQXsANBsqA/pWjRPXHiyYB2pEsZP16niwSSqTUWd6y7po0C2DL6Imw0TiF/6F2obI71EaPWEDV6fpxfRv9X5Kx8y8OeXlrcc7in8IJ4pyvcFwXzQT0g2sx2KFJbTykjXeOVLBhvbMeM+pDHAH3DEtNvmw6CuommBLJ5Q==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030799161","out_biz_no":"5a47bd56520c5","pay_date":"2017-12-31 00:22:46"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:22:59+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bd6281c96','17623094662','0.1','1514650978') [ RunTime:0.0003s ]
+
+[ 2017-12-31T00:24:23+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bdb6c7048','17623094662','0.1','1514651062') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=YQd0kQu4YfmQ8lb83Ww/HtrhAmqtLC3ytwe5r5ueSZhgtf9QN53WajMDwIjSppMGFVe5XQzWaNTXFqOkiN4vAKmcj06kvpAOA1KnW4RBn/UISo2obq+RuThPIcasuztRldfhl1tWhTXGzGY6Yq4IHPj6JaE5HtdWbeSZ2IL6ZrxtVbXFG1dJNVU64uwH8W4L+9xiXDdrIrij1HMla9ht7GUgUANKHazoun2WKmJ6RJnG73wJQDsxrej/Yibcq0Cfu6vCSHszbuaH6zq29JVUmYrSYDQpWGRS4aZYa2dNa0vl6wpDFsZAALfxfSjJHgawMks5CCKbNA4VX4LSkbHhnQ==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030797583","out_biz_no":"5a47bdb6c7048","pay_date":"2017-12-31 00:24:23"}]
+
+[ 2017-12-31T00:25:27+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0016s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bdf6d472e','17623094662','0.1','1514651126') [ RunTime:0.0003s ]
+
+[ 2017-12-31T00:25:51+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be0e2ce49','17623094662','0.1','1514651150') [ RunTime:0.0003s ]
+
+[ 2017-12-31T00:26:16+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be2632c7a','17623094662','0.1','1514651174') [ RunTime:0.0003s ]
+
+[ 2017-12-31T00:26:29+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0029s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be34dbfe1','17623094662','0.1','1514651188') [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvFrCIVT92yvRGvPpTpiqMHdqRo4mEUNFKEPYYOppCk3gW6MClzCcNeX9r/FJBMVvl75yhXHc7tJCGJ0kzeloh6G+/Acqa49J/GT//cLDNMrUTP3hp/UbEhPhIit9/Mi/Vwz9ccfC9z+2da3d3K1SX0yjQ0FpV6gfKiTqs8Gs0gGGCBOhxt2GOrjwn/rVik6+0Q+Sr1iW6jtm/ohOGr7x7wfj18ZaVbSi0z23zhm5n9dcC8TVPse/MZwP2GMkqx05g5WJFLEXf4HMYo86cKWz7t8Nt98RPosP6lF6w6zJQBCv4g+UaoR+fOwa5NIfYYZ/gKTX4B4AcejOOpMt8aAEwIDAQAB): failed to open stream: No such file or directory /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php 第 599 行.
+
+[ 2017-12-31T00:26:54+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be4d0e10a','17623094662','0.1','1514651213') [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvFrCIVT92yvRGvPpTpiqMHdqRo4mEUNFKEPYYOppCk3gW6MClzCcNeX9r/FJBMVvl75yhXHc7tJCGJ0kzeloh6G+/Acqa49J/GT//cLDNMrUTP3hp/UbEhPhIit9/Mi/Vwz9ccfC9z+2da3d3K1SX0yjQ0FpV6gfKiTqs8Gs0gGGCBOhxt2GOrjwn/rVik6+0Q+Sr1iW6jtm/ohOGr7x7wfj18ZaVbSi0z23zhm5n9dcC8TVPse/MZwP2GMkqx05g5WJFLEXf4HMYo86cKWz7t8Nt98RPosP6lF6w6zJQBCv4g+UaoR+fOwa5NIfYYZ/gKTX4B4AcejOOpMt8aAEwIDAQAB): failed to open stream: No such file or directory /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php 第 599 行.
+
+[ 2017-12-31T00:27:25+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be5c9e4b2','17623094662','0.1','1514651228') [ RunTime:0.0002s ]
+NOTIC: [2] file_get_contents(MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvFrCIVT92yvRGvPpTpiqMHdqRo4mEUNFKEPYYOppCk3gW6MClzCcNeX9r/FJBMVvl75yhXHc7tJCGJ0kzeloh6G+/Acqa49J/GT//cLDNMrUTP3hp/UbEhPhIit9/Mi/Vwz9ccfC9z+2da3d3K1SX0yjQ0FpV6gfKiTqs8Gs0gGGCBOhxt2GOrjwn/rVik6+0Q+Sr1iW6jtm/ohOGr7x7wfj18ZaVbSi0z23zhm5n9dcC8TVPse/MZwP2GMkqx05g5WJFLEXf4HMYo86cKWz7t8Nt98RPosP6lF6w6zJQBCv4g+UaoR+fOwa5NIfYYZ/gKTX4B4AcejOOpMt8aAEwIDAQAB): failed to open stream: No such file or directory /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php 第 599 行.
+
+[ 2017-12-31T00:27:43+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0025s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47be7ee0812','17623094662','0.1','1514651262') [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvFrCIVT92yvRGvPpTpiqMHdqRo4mEUNFKEPYYOppCk3gW6MClzCcNeX9r/FJBMVvl75yhXHc7tJCGJ0kzeloh6G+/Acqa49J/GT//cLDNMrUTP3hp/UbEhPhIit9/Mi/Vwz9ccfC9z+2da3d3K1SX0yjQ0FpV6gfKiTqs8Gs0gGGCBOhxt2GOrjwn/rVik6+0Q+Sr1iW6jtm/ohOGr7x7wfj18ZaVbSi0z23zhm5n9dcC8TVPse/MZwP2GMkqx05g5WJFLEXf4HMYo86cKWz7t8Nt98RPosP6lF6w6zJQBCv4g+UaoR+fOwa5NIfYYZ/gKTX4B4AcejOOpMt8aAEwIDAQAB): failed to open stream: No such file or directory /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php 第 599 行.
+
+[ 2017-12-31T00:28:28+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47beabad18f','17623094662','0.1','1514651307') [ RunTime:0.0005s ]
+
+[ 2017-12-31T00:29:03+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0027s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47beceb9ef2','15058258109','0.1','1514651342') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=lWDfhk2Qoili+HfH6U2wsr9t7VbHQjDVw2PALujXSZ7Gds22N8VooRcvShd9Z6jl4aev01zQDbOJJn7eetXfzn16boWwZN4jkDICZKZwgduiQRtSaBJX8O8BFHpllPGYSPiUAHe0Mfe85QnFqQWuzHadgDoCiUNJba+ZB2vSo7Y=, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，sign值与sign_type参数指定的签名类型不一致：sign_type参数值为RSA，您实际用的签名类型可能是RSA2"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:29:11+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bed67edb4','15058258109','0.1','1514651350') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=Xs0s1RUerPEPxuldkp2YFaMtvllcimU3A6k3etURdhjn/930XmBzkS7I6QijxY92BVOWtHeJS33KLCqDQzNM8AG2GMw/1SiZ5ScpMcc1JoEvonUv5RuxlKl0X2gw2afrizFhtRGY50/42QlWWfZsitznrV6VJ3G9S+iIl85fkzbUhSjxExFUPpGiDOzb4f6fYK8f2fIBp3Ii0RyqKEriVz15htMocrD+Cn7NKmSU6GQR0oSJgvJMzU1wRGwz/CumGN32ouPOShkWcv11bRgpaoz1fz5tFRjHZwmGKf9U1p9YzuIaNwuBRM5H8LsweaLSBcOZ16Hf5ihPmc57WKvK/A==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030797617","out_biz_no":"5a47bed67edb4","pay_date":"2017-12-31 00:29:10"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:30:50+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bf3988cd7','15058258109','0.1','1514651449') [ RunTime:0.0003s ]
+NOTIC: [2] file_get_contents(MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtvFrCIVT92yvRGvPpTpiqMHdqRo4mEUNFKEPYYOppCk3gW6MClzCcNeX9r/FJBMVvl75yhXHc7tJCGJ0kzeloh6G+/Acqa49J/GT//cLDNMrUTP3hp/UbEhPhIit9/Mi/Vwz9ccfC9z+2da3d3K1SX0yjQ0FpV6gfKiTqs8Gs0gGGCBOhxt2GOrjwn/rVik6+0Q+Sr1iW6jtm/ohOGr7x7wfj18ZaVbSi0z23zhm5n9dcC8TVPse/MZwP2GMkqx05g5WJFLEXf4HMYo86cKWz7t8Nt98RPosP6lF6w6zJQBCv4g+UaoR+fOwa5NIfYYZ/gKTX4B4AcejOOpMt8aAEwIDAQAB): failed to open stream: No such file or directory /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php 第 599 行.
+
+[ 2017-12-31T00:31:43+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0017s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bf6f0eb5c','15058258109','0.1','1514651503') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006680s ]
+
+[ 2017-12-31T00:31:54+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0018s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bf7a34af3','15058258109','0.1','1514651514') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-12-31T00:32:04+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47bf8380b96','15058258109','0.1','1514651523') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=C7lWqYUcsgU7lNp6OKy8o5tDesS4ElmHrpgnCN7K6yQBzolPaP6URm71YGi+MW2ilkaQoJ6xiEv3KoDBrH91sTLTzmFYAKYbXNGJkLEXbK0r9tJ1E9J1dlOYPJoxrT0MJoBMutK1z3Zd+CVY944vlciUBRLCUOU2cHucx4j7D6penSQkAnUjzfDPUDOCl+qzkY09Wkf6lhhS+A0BSuqZmoXGySOouZ4ut7ijWpz0rnl3NMDfRl2f+4LZN/KGygH7jco9Rjkjt1H6/NfTi+0V4Vus41n6VlyHr3l2DAo0WbtFRVBCAKirx/T5bf7W5dWGWQLalZOtEL+ReQFfO179fA==, signSourceData={"code":"10000","msg":"Success","order_id":"20171231110070001502800030793811","out_biz_no":"5a47bf8380b96","pay_date":"2017-12-31 00:32:03"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:34:28+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c013a787b','15058258109','0.1','1514651667') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=jdzcZx2dHRaXhcmxV2/UNY+2wugZuwYi53b65aXDtUh4EX9yYy4L0imOuPgWRxRzzV+m/aJ0r21veFJxL+j+Pi7jTxkRJn1CFqKmp+bZzrFV7QZSH6qbIlVMRMZkrzHuXparSeP6hdul8xD3XSkHXc5LN+Y0x6ABLjWJVhdxU0bHoaeOkR1WduHoUAul+HvqwwiedzSUHZR3qHW0caEZncVXFaKGPpCtv5ELu7qIFk6wq9HRVZJ+lhDWtoonM+eN06n3YJczqqomNRtTqZIWacyWUOU+Qg780Cy+Jk/E5qIKBMwnbYkTOgBRmt3xgkOwytTj4HsppACK0c07uqJIvQ==, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，建议检查签名字符串或签名私钥与应用公钥是否匹配，网关生成的验签字符串为：alipay_sdk=alipay-sdk-php-20161101&amp;app_id=2017050107071395&amp;biz_content={&quot;out_biz_no&quot;:&quot;5a47c013a787b&quot;,&quot;payee_type&quot;:&quot;ALIPAY_LOGONID&quot;,&quot;payee_account&quot;:&quot;15058258109&quot;,&quot;amount&quot;:&quot;0.1&quot;,&quot;payer_show_name&quot;:&quot;商家付款111&quot;,&quot;remark&quot;:&quot;商家付款&quot;}&amp;charset=utf-8&amp;format=json&amp;method=alipay.fund.trans.toaccount.transfer&amp;sign_type=RSA2&amp;timestamp=2017-12-31 00:34:27&amp;version=1.0"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:35:08+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0027s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c03c67914','15058258109','0.1','1514651708') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=lWDfhk2Qoili+HfH6U2wsr9t7VbHQjDVw2PALujXSZ7Gds22N8VooRcvShd9Z6jl4aev01zQDbOJJn7eetXfzn16boWwZN4jkDICZKZwgduiQRtSaBJX8O8BFHpllPGYSPiUAHe0Mfe85QnFqQWuzHadgDoCiUNJba+ZB2vSo7Y=, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，sign值与sign_type参数指定的签名类型不一致：sign_type参数值为RSA，您实际用的签名类型可能是RSA2"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:35:26+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0014s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c04e6eba7','15058258109','0.1','1514651726') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=fZ6pj3j0oBP4A7Y56i//S7DE3sP788tgyl1UHhmmEU9l65BYU24/whX6uNp5iAs7bEMKH0o8McsSmAuk3cYVaeak5cGHqkCcj5kg0+plobAjt/BcL9nS5nr1+ua2m+w+CVCLLPe2kB4QKVgDPX0GGlira/gxfcivP/EjwO8Np/+2Zq1LLWJefBWHWVT6hUfOINPSJeZEsQ1mFckgeYkalNZDUBIFG9LxnvLB8aeDUxJPcmXIPfb8BKhwttSyVf9pNfHJOfhR6NV0rCHcL4vaF/eqzhhQIU0MgnCPAgqIKbnQoaBctoOa5Zms8BkvKCX4tnp3+l8MJyXhxj7hHDNTtA==, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，建议检查签名字符串或签名私钥与应用公钥是否匹配，网关生成的验签字符串为：alipay_sdk=alipay-sdk-php-20161101&amp;app_id=2017050107071395&amp;biz_content={&quot;out_biz_no&quot;:&quot;5a47c04e6eba7&quot;,&quot;payee_type&quot;:&quot;ALIPAY_LOGONID&quot;,&quot;payee_account&quot;:&quot;15058258109&quot;,&quot;amount&quot;:&quot;0.1&quot;,&quot;payer_show_name&quot;:&quot;商家付款111&quot;,&quot;remark&quot;:&quot;商家付款&quot;}&amp;charset=utf-8&amp;format=json&amp;method=alipay.fund.trans.toaccount.transfer&amp;sign_type=RSA2&amp;timestamp=2017-12-31 00:35:26&amp;version=1.0"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:35:57+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0017s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c06d11470','15058258109','0.1','1514651757') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=TZHTfOSgdlr+P32+F33ZdC0FUgJmKfGUWoal+XmqNDfH0yE9UkUrTEb2QhDZXLf7YFC02L96RiNzt7BXRJs1efCkr3/Rcb9GKuTWnJKgFf+XO7xtLvbDRoUTC09PULPTHT9sRFEgUQxRSn4SaE9q/lgmmm8DjjnbkAs8skUhr9mhuIkV8K0RA/2wruZilr/nTmDHlQ+W6lBE2ei2YNT5kC26arR+5IQyqe5pQctKFyd/lRHxSxr0EoQIIklz7Z/5g20WCZZeRHdI+bLHsckqSHK0SL4WK3ptXNrZ8pUrB7UmZJk+WZ1oJDmR5Y0g2i/vgez5mG0N/w9FdCKWOeirBA==, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，建议检查签名字符串或签名私钥与应用公钥是否匹配，网关生成的验签字符串为：alipay_sdk=alipay-sdk-php-20161101&amp;app_id=2017050107071395&amp;biz_content={&quot;out_biz_no&quot;:&quot;5a47c06d11470&quot;,&quot;payee_type&quot;:&quot;ALIPAY_LOGONID&quot;,&quot;payee_account&quot;:&quot;15058258109&quot;,&quot;amount&quot;:&quot;0.1&quot;,&quot;payer_show_name&quot;:&quot;商家付款111&quot;,&quot;remark&quot;:&quot;商家付款&quot;}&amp;charset=utf-8&amp;format=json&amp;method=alipay.fund.trans.toaccount.transfer&amp;sign_type=RSA2&amp;timestamp=2017-12-31 00:35:57&amp;version=1.0"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:36:25+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0024s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c088b8787','15058258109','0.1','1514651784') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=WA0j/zxjNThNRq74mcrinyEP5TGo2uUc31v6iTG7S20IL9tOVeuUJ7j/mNhVWltrbKAzY33mD5Web7mjmzpS2ncWaANwYKyE0/fRGaNlgKipyKlRlUDJqZLO4AqUpsPGA6Rnz/n6zcJtOKz4UEMYC+YX+1pxdyKqRKveloHwMgPgZJnBceOpAcfzXQoOYVMgn+b4ymCxaLqHtCrwu4OSzF0pBwkyyBbdgbTrpVoxUSE60mKG3hJyOj39VNi9tS1K8tIXde47yjykWM6+FUR/UuelIMt5TuG4wqDvLBGeVxeh3MD9ewe0H/3WRrgmvUn27TBiPMNUoM/euarCLr9c3w==, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，建议检查签名字符串或签名私钥与应用公钥是否匹配，网关生成的验签字符串为：alipay_sdk=alipay-sdk-php-20161101&amp;app_id=2017050107071395&amp;biz_content={&quot;out_biz_no&quot;:&quot;5a47c088b8787&quot;,&quot;payee_type&quot;:&quot;ALIPAY_LOGONID&quot;,&quot;payee_account&quot;:&quot;15058258109&quot;,&quot;amount&quot;:&quot;0.1&quot;,&quot;payer_show_name&quot;:&quot;商家付款111&quot;,&quot;remark&quot;:&quot;商家付款&quot;}&amp;charset=utf-8&amp;format=json&amp;method=alipay.fund.trans.toaccount.transfer&amp;sign_type=RSA2&amp;timestamp=2017-12-31 00:36:24&amp;version=1.0"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:36:40+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0026s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c0982fb71','15058258109','0.1','1514651800') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=FM1D2Y9HKFaFZO+1RKAF+uetFWu5BZ0/2HUDbVEptRz7fBhTgAsy1Rusb0z9OpsJhHkYo06ueAXVAThEid6tD0b040j8EOR7pDYo9DZ8o9SxLMndEBS6mhqDUspaKySKGQwTaTn/Bi1v1B62FnwhmpZt6XeczkEhJl5v2chh88+tQcrAi2R4s5GikfRP8bxCf+ir4GhNithBTZZnWi9SbgrLw3cZIOqZkLbPwYkXYreWFIxFdl0BDbzQZHhP4h0AYPbuoQlzklZuq0XNgqZWj1xOnrol6ZO42VLAHJC3v/3r+D22dAxfRJCww3wg37C7LEHkExtt+Ji4gwyXp3wCBg==, signSourceData={"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-signature","sub_msg":"验签出错，建议检查签名字符串或签名私钥与应用公钥是否匹配，网关生成的验签字符串为：alipay_sdk=alipay-sdk-php-20161101&amp;app_id=2017050107071395&amp;biz_content={&quot;out_biz_no&quot;:&quot;5a47c0982fb71&quot;,&quot;payee_type&quot;:&quot;ALIPAY_LOGONID&quot;,&quot;payee_account&quot;:&quot;15058258109&quot;,&quot;amount&quot;:&quot;0.1&quot;,&quot;payer_show_name&quot;:&quot;商家付款111&quot;,&quot;remark&quot;:&quot;商家付款&quot;}&amp;charset=utf-8&amp;format=json&amp;method=alipay.fund.trans.toaccount.transfer&amp;sign_type=RSA2&amp;timestamp=2017-12-31 00:36:40&amp;version=1.0"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:37:19+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0016s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c0bf48365','15058258109','0.1','1514651839') [ RunTime:0.0003s ]
+ERR: check sign Fail! [sign=bvzcxgi0KA7BRMexoiLIhCrAquTa4xx+7+bKM1UcAwY15aIPyWeB+xfRHQKBYJscZ+lfA/RGOV+HbXWyrkcMV/rMCd+l8Qc7ePwXozwr/w8q/CoyHx1oY71TKoW68tsZPoYzHnFfiCgOybxoCiANMbrRQEm2pOD2rWHl0F+YqPM6y+VbAKtkSt1Ekmg25ENh7VluN1KmysmDJb8VrMWJuZ+RKDyMgvK3JjxDLyv9pN9qp6VCcRL3IdCTnaWaGlst7KbgN4XEybHUgF2yokZQWrF5ZaSs40KgWFAQPWY3I6L90XUAxbcUCAcIqPPQL4wv59ZGcrtNdEN7BbxvCZHnEA==, signSourceData={"code":"40006","msg":"Insufficient Permissions","sub_code":"isv.insufficient-isv-permissions","sub_msg":"ISV权限不足，建议在开发者中心检查签约是否已经生效"}]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Org/AliWapPay/aop/AopClient.php:928) /Users/qianchao/workspace/wwwroot/tp3/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-12-31T00:39:53+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c158e0b23','15058258109','0.1','1514651992') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514651993' WHERE `out_trade_no` = '5a47c158e0b23' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-12-31T00:40:11+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-12-31T00:40:25+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0015s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c17935730','17623094662','0.1','1514652025') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514652025' WHERE `out_trade_no` = '5a47c17935730' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-12-31T00:40:36+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0023s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c1838a54e','17623094662','0.1','1514652035') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514652036' WHERE `out_trade_no` = '5a47c1838a54e' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-12-31T00:41:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-12-31T00:41:27+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-12-31T00:42:44+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0022s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c2035323c','15058258109','0.1','1514652163') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514652164' WHERE `out_trade_no` = '5a47c2035323c' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-12-31T00:43:32+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: trans_username /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 8 行.
+NOTIC: [8] Undefined index: trans_fee /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 9 行.
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0028s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c233e53d6','15058258109','0.1','1514652211') [ RunTime:0.0003s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514652212' WHERE `out_trade_no` = '5a47c233e53d6' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-12-31T00:43:54+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2017-12-31T00:44:01+08:00 ] ::1 /Home/Pay/alipay_transfer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2048] Non-static method Org\AliWapPay::alipay_transfer() should not be called statically, assuming $this from incompatible context /Users/qianchao/workspace/wwwroot/tp3/Application/Home/Controller/PayController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0018s ]
+SQL: INSERT INTO `think_order` (`out_trade_no`,`payee_account`,`amount`,`create_time`) VALUES ('5a47c250b5e20','15058258109','0.1','1514652240') [ RunTime:0.0004s ]
+SQL: UPDATE `think_order` SET `has_notify`='1',`update_time`='1514652241' WHERE `out_trade_no` = '5a47c250b5e20' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
